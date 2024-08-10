@@ -14,6 +14,13 @@ class SoldierFactory
         virtual int calculateTotalHealthPerUnit() = 0;
         virtual int calculateTotalDamagePerUnit() = 0;
         virtual int calculateTotalDefencePerUnit() = 0;
+<<<<<<< HEAD
+
+        public:
+    virtual ~SoldierFactory() {}
+
+=======
+>>>>>>> f405b0f959284354c44742742fb633eebe78f7e3
 };
 #endif
 

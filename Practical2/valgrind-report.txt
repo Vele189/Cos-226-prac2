@@ -1,0 +1,998 @@
+==1704== Memcheck, a memory error detector
+==1704== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1704== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1704== Command: ./main
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10DE77: BoatmanFactory::createUnit() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B842: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+Initial soldier units:
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10EE29: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10EF45: unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE46: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCC8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCD3: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCD9: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ABD2F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10F0AC: void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EEAA: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10F0B2: void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EEAA: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x10F0FB: void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EEAA: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E901: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AD5E0: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned long, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AD0DC: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AD109: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABC24: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABC35: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABC3A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4848FC0: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC110: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC121: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49AD17C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E91B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADBCC: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E935: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB0B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E935: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB63: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E935: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB2D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E935: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADC5C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator+=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB0B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB10: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB19: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485288A: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485290B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852973: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485299B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529B3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529C4: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x48529E0: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x48529E3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529EF: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A01: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB2D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E94B: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10EE29: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10EF45: unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE46: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCC8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCD3: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCD9: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ABD2F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10F0AC: void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EEAA: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10F0B2: void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EEAA: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x10F0FB: void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EEAA: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9A4: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AD5E0: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned long, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9BE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AD0DC: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9BE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AD109: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9BE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC110: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9BE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC121: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AD25D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9BE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49AD17C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F12C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9BE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADBCC: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9D8: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB0B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9D8: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB63: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9D8: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB2D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10F554: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E9D8: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADC5C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator+=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB0B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABC24: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABC35: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABC3A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4848FC0: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A37: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485290B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485295D: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852973: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x485298D: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x4852990: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485299B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529B3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529C4: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x48529E0: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x48529E3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529EF: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A01: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC0E8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC0F2: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485288A: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485289C: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48528A9: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A37: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48528D6: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529C4: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x48529E3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529EF: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A01: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x4852A10: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x4852A13: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A1D: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC110: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB2D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10E9EE: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10EE29: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EA47: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10EF45: unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE46: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EA47: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCC8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EA47: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCD3: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EA47: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ABCD9: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EA47: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ABD2F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EFED: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EE78: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EA47: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10F0AC: void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EEAA: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EA47: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== 
+==1704== More than 100 errors detected.  Subsequent errors
+==1704== will still be recorded, but in less detail than before.
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADC5C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator+=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB0B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485289C: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48528D6: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529BE: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x4852A13: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A1D: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49ADB22: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB2D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EA91: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x10EE29: std::__cxx11::to_string(int) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10EAEA: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADC5C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator+=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB34: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB0B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB34: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB2D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB34: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADC1C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator+=(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49ADB0B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC0C4: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x49AC0CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485288A: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x4852A10: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x4852A13: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4852A1D: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC0DD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48529BE: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x49AC103: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x49ADB4F: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x49ADB2D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10EB71: SoldiersManager::printSoldierUnits[abi:cxx11]() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B8DC: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x499CA2F: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B2BF3C: fwrite (iofwrite.c:35)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B37618: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1203)
+==1704==    by 0x4B2BFD6: fwrite (iofwrite.c:39)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x485344A: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x4B37664: _IO_new_file_xsputn (fileops.c:1235)
+==1704==    by 0x4B37664: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==1704==    by 0x4B2BFD6: fwrite (iofwrite.c:39)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4853528: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x4B37664: _IO_new_file_xsputn (fileops.c:1235)
+==1704==    by 0x4B37664: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==1704==    by 0x4B2BFD6: fwrite (iofwrite.c:39)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x48534FE: mempcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x4B37664: _IO_new_file_xsputn (fileops.c:1235)
+==1704==    by 0x4B37664: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==1704==    by 0x4B2BFD6: fwrite (iofwrite.c:39)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B3766C: _IO_new_file_xsputn (fileops.c:1239)
+==1704==    by 0x4B3766C: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==1704==    by 0x4B2BFD6: fwrite (iofwrite.c:39)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B2C00B: fwrite (iofwrite.c:45)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x499CB72: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8F2: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B33EA4: putc (putc.c:29)
+==1704==    by 0x499C269: std::ostream::put(char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x499C812: std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Use of uninitialised value of size 8
+==1704==    at 0x4B33EAE: putc (putc.c:29)
+==1704==    by 0x499C269: std::ostream::put(char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x499C812: std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B36448: _IO_file_sync@@GLIBC_2.2.5 (fileops.c:797)
+==1704==    by 0x4B2B1A9: fflush (iofflush.c:40)
+==1704==    by 0x499BE45: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B38939: _IO_do_write@@GLIBC_2.2.5 (fileops.c:425)
+==1704==    by 0x4B364D7: _IO_file_sync@@GLIBC_2.2.5 (fileops.c:798)
+==1704==    by 0x4B2B1A9: fflush (iofflush.c:40)
+==1704==    by 0x499BE45: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B36ED4: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1175)
+==1704==    by 0x4B389E0: new_do_write (fileops.c:448)
+==1704==    by 0x4B389E0: _IO_new_do_write (fileops.c:425)
+==1704==    by 0x4B389E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==1704==    by 0x4B364D7: _IO_file_sync@@GLIBC_2.2.5 (fileops.c:798)
+==1704==    by 0x4B2B1A9: fflush (iofflush.c:40)
+==1704==    by 0x499BE45: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Syscall param write(count) contains uninitialised byte(s)
+==1704==    at 0x4BC0A77: write (write.c:26)
+==1704==    by 0x4B36EEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==1704==    by 0x4B389E0: new_do_write (fileops.c:448)
+==1704==    by 0x4B389E0: _IO_new_do_write (fileops.c:425)
+==1704==    by 0x4B389E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==1704==    by 0x4B364D7: _IO_file_sync@@GLIBC_2.2.5 (fileops.c:798)
+==1704==    by 0x4B2B1A9: fflush (iofflush.c:40)
+==1704==    by 0x499BE45: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Syscall param write(buf) points to uninitialised byte(s)
+==1704==    at 0x4BC0A77: write (write.c:26)
+==1704==    by 0x4B36EEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==1704==    by 0x4B389E0: new_do_write (fileops.c:448)
+==1704==    by 0x4B389E0: _IO_new_do_write (fileops.c:425)
+==1704==    by 0x4B389E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==1704==    by 0x4B364D7: _IO_file_sync@@GLIBC_2.2.5 (fileops.c:798)
+==1704==    by 0x4B2B1A9: fflush (iofflush.c:40)
+==1704==    by 0x499BE45: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704==  Address 0x4dd230c is 92 bytes inside a block of size 4,096 alloc'd
+==1704==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x4B2ABA3: _IO_file_doallocate (filedoalloc.c:101)
+==1704==    by 0x4B39CDF: _IO_doallocbuf (genops.c:347)
+==1704==    by 0x4B38F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==1704==    by 0x4B376D4: _IO_new_file_xsputn (fileops.c:1243)
+==1704==    by 0x4B376D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==1704==    by 0x4B2BFD6: fwrite (iofwrite.c:39)
+==1704==    by 0x499CB64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x499CEBA: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B8B7: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+This is a list of all the available prototypes: 
+Unit Name:  : 
+Amount of Soldiers in Unit: 0
+Defence Per Soldier: 0
+Health Per Soldier: 0
+Damage Per Soldier: 0
+------------------------------------------------------------
+
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B36EFB: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1175)
+==1704==    by 0x4B389E0: new_do_write (fileops.c:448)
+==1704==    by 0x4B389E0: _IO_new_do_write (fileops.c:425)
+==1704==    by 0x4B389E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==1704==    by 0x4B364D7: _IO_file_sync@@GLIBC_2.2.5 (fileops.c:798)
+==1704==    by 0x4B2B1A9: fflush (iofflush.c:40)
+==1704==    by 0x499BE45: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x4B364DA: _IO_file_sync@@GLIBC_2.2.5 (fileops.c:798)
+==1704==    by 0x4B2B1A9: fflush (iofflush.c:40)
+==1704==    by 0x499BE45: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10B904: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+Soldier units after cloning:
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x499CA2F: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10BA12: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== Conditional jump or move depends on uninitialised value(s)
+==1704==    at 0x499CB72: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+==1704==    by 0x10BA12: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+This is a list of all the available prototypes: 
+Unit Name:  : 
+Amount of Soldiers in Unit: 0
+Defence Per Soldier: 0
+Health Per Soldier: 0
+Damage Per Soldier: 0
+------------------------------------------------------------
+
+Unable to remove this prototype because it doesn't exist.
+Unable to remove this prototype because it doesn't exist.
+Soldier units after removal:
+No soldier units available.
+Unable to remove this prototype because it doesn't exist.
+Infantry preparing: forming ranks and checking equipment.
+Infantry executing: advancing and engaging the enemy.
+Boatman preparing: boarding boats and checking supplies.
+Boatman executing: navigating the boat and attacking from water.
+ShieldBearer preparing: adjusting shields and checking formations.
+ShieldBearer executing: forming defensive line and blocking attacks.
+Restored soldier units:
+No soldier units available.
+==1704== 
+==1704== HEAP SUMMARY:
+==1704==     in use at exit: 538 bytes in 6 blocks
+==1704==   total heap usage: 43 allocs, 37 frees, 80,185 bytes allocated
+==1704== 
+==1704== 104 bytes in 1 blocks are definitely lost in loss record 2 of 6
+==1704==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x10C9A4: Infantry::clonis() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E584: SoldiersManager::addSoldierUnit(Soldiers*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B872: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== 104 bytes in 1 blocks are definitely lost in loss record 3 of 6
+==1704==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x10D254: Boatman::clonis() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E584: SoldiersManager::addSoldierUnit(Soldiers*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B888: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== 104 bytes in 1 blocks are definitely lost in loss record 4 of 6
+==1704==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x10C9A4: Infantry::clonis() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E584: SoldiersManager::addSoldierUnit(Soldiers*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B992: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== 104 bytes in 1 blocks are definitely lost in loss record 5 of 6
+==1704==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x10D254: Boatman::clonis() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E584: SoldiersManager::addSoldierUnit(Soldiers*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B9A8: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== 122 (104 direct, 18 indirect) bytes in 1 blocks are definitely lost in loss record 6 of 6
+==1704==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1704==    by 0x10D720: ShieldBearer::clonis() (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10E584: SoldiersManager::addSoldierUnit(Soldiers*) (in /mnt/c/Users/User/Practical2/main)
+==1704==    by 0x10B89E: main (in /mnt/c/Users/User/Practical2/main)
+==1704== 
+==1704== LEAK SUMMARY:
+==1704==    definitely lost: 520 bytes in 5 blocks
+==1704==    indirectly lost: 18 bytes in 1 blocks
+==1704==      possibly lost: 0 bytes in 0 blocks
+==1704==    still reachable: 0 bytes in 0 blocks
+==1704==         suppressed: 0 bytes in 0 blocks
+==1704== 
+==1704== Use --track-origins=yes to see where uninitialised values come from
+==1704== For lists of detected and suppressed errors, rerun with: -s
+==1704== ERROR SUMMARY: 1042 errors from 147 contexts (suppressed: 0 from 0)
